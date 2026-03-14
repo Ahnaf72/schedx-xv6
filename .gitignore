@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# xv6 specific
+*.img
+*.sym
+kernel/kernel
+user/_*
+.gdbinit
+
+# QEMU
+*.log
+
+# Editor clutter
+.vscode/
+.idea/
+*.swp
+*.swo
